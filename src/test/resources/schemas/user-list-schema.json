@@ -1,0 +1,101 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "Model",
+  "type": "object",
+  "properties": {
+    "page": {
+      "type": "number"
+    },
+    "per_page": {
+      "type": "number"
+    },
+    "total": {
+      "type": "number"
+    },
+    "total_pages": {
+      "type": "number"
+    },
+    "data": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "number",
+			"minimum": 1
+          },
+          "email": {
+            "type": "string",
+			"pattern": "^[A-Za-z0-9+_.-]+@reqres\\.in$"
+          },
+          "first_name": {
+            "type": "string",
+			"minLength": 1
+          },
+          "last_name": {
+            "type": "string"
+          },
+          "avatar": {
+            "type": "string",
+			"pattern": "^https://reqres\\.in/.+\\.(jpg|png)$"
+          }
+        },
+        "required": [
+          "id",
+          "email",
+          "first_name",
+          "last_name",
+          "avatar"
+        ]
+      }
+    },
+    "support": {
+      "type": "object",
+      "properties": {
+        "url": {
+          "type": "string"
+        },
+        "text": {
+          "type": "string"
+        }
+      }
+    },
+    "_meta": {
+      "type": "object",
+      "properties": {
+        "powered_by": {
+          "type": "string"
+        },
+        "docs_url": {
+          "type": "string"
+        },
+        "upgrade_url": {
+          "type": "string"
+        },
+        "example_url": {
+          "type": "string"
+        },
+        "variant": {
+          "type": "string"
+        },
+        "message": {
+          "type": "string"
+        },
+        "cta": {
+          "type": "object",
+          "properties": {
+            "label": {
+              "type": "string"
+            },
+            "url": {
+              "type": "string"
+            }
+          }
+        },
+        "context": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

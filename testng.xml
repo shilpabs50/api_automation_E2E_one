@@ -1,0 +1,24 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Reqres Automation Suite">
+
+<listeners>
+    <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
+    <listener class-name="listeners.SimpleListener"/>
+    <listener class-name="listeners.RetryListener"/>
+</listeners>
+
+    <!--<test name="Reqres Get Tests">
+        <classes>
+            <class name="Tests.GetUsersTest"/>
+            <class name="Tests.GetSingleUserTest"/>
+        </classes>
+    </test>-->
+    
+    
+    <test name="All Tests">
+        <packages>
+            <package name="Tests"/>
+        </packages>
+    </test>
+
+</suite>

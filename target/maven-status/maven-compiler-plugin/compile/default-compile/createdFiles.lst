@@ -1,0 +1,5 @@
+pojo\response\GetUsersResponse.class
+clients\ReqresClient.class
+pojo\response\GetUserResponse.class
+pojo\response\Support.class
+pojo\response\User.class
