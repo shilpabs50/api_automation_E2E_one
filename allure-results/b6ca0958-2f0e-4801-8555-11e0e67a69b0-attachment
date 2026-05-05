@@ -1,6 +1,0 @@
-org.assertj.core.api.SoftAssertionError: 
-The following assertion failed:
-1) [Page number validation] 
-expected: 1
- but was: 2
-at AssertionUtils.verifyEquals(AssertionUtils.java:34)

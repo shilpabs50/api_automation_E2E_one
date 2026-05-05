@@ -265,3 +265,204 @@
 2026-04-09 22:21:15 INFO  utils.AssertionUtils - [ASSERT PASS] Page number validation
 2026-04-09 22:21:15 INFO  utils.AssertionUtils - [ASSERT PASS] Schema validation
 2026-04-09 22:21:15 INFO  Tests.GetUsersTest - Get Users Test completed
+2026-04-12 22:46:30 INFO  utils.AssertionUtils - [ASSERT PASS] Update user schema validation
+2026-04-12 22:47:15 INFO  utils.AssertionUtils - [ASSERT PASS] Update user schema validation
+2026-04-12 22:51:25 INFO  utils.AssertionUtils - [ASSERT PASS] Update user schema validation
+2026-04-12 22:51:25 INFO  utils.AssertionUtils - [ASSERT PASS] Updated user validation
+2026-04-12 22:51:26 INFO  utils.AssertionUtils - [ASSERT PASS] Updated job validation
+2026-04-12 22:52:21 INFO  utils.AssertionUtils - [ASSERT PASS] Schema validation
+2026-04-12 22:52:21 INFO  Tests.GetUsersTest - Started Get Users Test
+2026-04-12 22:52:22 INFO  utils.AssertionUtils - [ASSERT PASS] Page number validation
+2026-04-12 22:52:22 INFO  utils.AssertionUtils - [ASSERT PASS] Schema validation
+2026-04-12 22:52:22 INFO  Tests.GetUsersTest - Get Users Test completed
+2026-04-12 22:52:23 INFO  utils.AssertionUtils - [ASSERT PASS] Update user schema validation
+2026-04-12 22:52:23 INFO  utils.AssertionUtils - [ASSERT PASS] Updated user validation
+2026-04-12 22:52:23 INFO  utils.AssertionUtils - [ASSERT PASS] Updated job validation
+2026-04-12 23:01:22 INFO  utils.AssertionUtils - [ASSERT PASS] Schema validation
+2026-04-12 23:01:22 INFO  Tests.GetUsersTest - Started Get Users Test
+2026-04-12 23:01:22 INFO  utils.AssertionUtils - [ASSERT PASS] Page number validation
+2026-04-12 23:01:23 INFO  utils.AssertionUtils - [ASSERT PASS] Schema validation
+2026-04-12 23:01:23 INFO  Tests.GetUsersTest - Get Users Test completed
+2026-04-12 23:01:23 INFO  utils.AssertionUtils - [ASSERT PASS] Update user schema validation
+2026-04-12 23:01:23 INFO  utils.AssertionUtils - [ASSERT PASS] Updated user validation
+2026-04-12 23:01:23 INFO  utils.AssertionUtils - [ASSERT PASS] Updated job validation
+2026-04-12 23:03:50 INFO  utils.AssertionUtils - [ASSERT PASS] Schema validation
+2026-04-12 23:03:50 INFO  Tests.GetUsersTest - Started Get Users Test
+2026-04-12 23:03:51 INFO  utils.AssertionUtils - [ASSERT PASS] Page number validation
+2026-04-12 23:03:51 INFO  utils.AssertionUtils - [ASSERT PASS] Schema validation
+2026-04-12 23:03:51 INFO  Tests.GetUsersTest - Get Users Test completed
+2026-04-12 23:03:52 INFO  utils.AssertionUtils - [ASSERT PASS] Update user schema validation
+2026-04-12 23:03:52 INFO  utils.AssertionUtils - [ASSERT PASS] Updated user validation
+2026-04-12 23:03:52 INFO  utils.AssertionUtils - [ASSERT PASS] Updated job validation
+2026-04-12 23:07:48 INFO  utils.AssertionUtils - [ASSERT PASS] Schema validation
+2026-04-12 23:07:48 INFO  Tests.GetUsersTest - Started Get Users Test
+2026-04-12 23:07:48 INFO  utils.AssertionUtils - [ASSERT PASS] Page number validation
+2026-04-12 23:07:49 INFO  utils.AssertionUtils - [ASSERT PASS] Schema validation
+2026-04-12 23:07:49 INFO  Tests.GetUsersTest - Get Users Test completed
+2026-04-12 23:07:49 INFO  utils.AssertionUtils - [ASSERT PASS] Update user schema validation
+2026-04-12 23:07:49 INFO  utils.AssertionUtils - [ASSERT PASS] Updated user validation
+2026-04-12 23:07:49 INFO  utils.AssertionUtils - [ASSERT PASS] Updated job validation
+2026-04-12 23:28:26 INFO  utils.AssertionUtils - [ASSERT PASS] Schema validation
+2026-04-12 23:28:26 INFO  Tests.GetUsersTest - Started Get Users Test
+2026-04-12 23:28:27 INFO  utils.AssertionUtils - [ASSERT PASS] Page number validation
+2026-04-12 23:28:27 INFO  utils.AssertionUtils - [ASSERT PASS] Schema validation
+2026-04-12 23:28:27 INFO  Tests.GetUsersTest - Get Users Test completed
+2026-04-12 23:28:28 INFO  utils.AssertionUtils - [ASSERT PASS] Update user schema validation
+2026-04-12 23:28:28 INFO  utils.AssertionUtils - [ASSERT PASS] Updated user validation
+2026-04-12 23:28:28 INFO  utils.AssertionUtils - [ASSERT PASS] Updated job validation
+2026-04-13 22:29:49 INFO  Tests.ListResourcesTest - Started List resources Test
+2026-04-13 22:29:52 INFO  utils.AssertionUtils - [ASSERT PASS] List resources schema validation
+2026-04-13 22:40:41 INFO  Tests.ListResourcesTest - Started List resources Test
+2026-04-13 22:40:44 INFO  utils.AssertionUtils - [ASSERT PASS] List resources schema validation
+2026-04-13 22:40:44 INFO  utils.AssertionUtils - [ASSERT PASS] validation of data list not empty in resources list
+2026-04-13 22:44:55 INFO  Tests.ListResourcesTest - Started List resources Test
+2026-04-13 22:44:58 INFO  utils.AssertionUtils - [ASSERT PASS] List resources schema validation
+2026-04-13 22:44:58 INFO  utils.AssertionUtils - [ASSERT PASS] validation of data list not empty in resources list
+2026-04-13 22:44:59 ERROR utils.AssertionUtils - [ASSERT FAIL] response data validation | Expected: fuchsia rose | Actual: true red
+2026-04-13 22:45:26 INFO  Tests.ListResourcesTest - Started List resources Test
+2026-04-13 22:45:28 INFO  utils.AssertionUtils - [ASSERT PASS] List resources schema validation
+2026-04-13 22:45:28 INFO  utils.AssertionUtils - [ASSERT PASS] validation of data list not empty in resources list
+2026-04-13 22:45:29 INFO  utils.AssertionUtils - [ASSERT PASS] response data validation
+2026-04-13 22:48:54 INFO  Tests.ListResourcesTest - Started List resources Test
+2026-04-13 22:48:57 INFO  utils.AssertionUtils - [ASSERT PASS] List resources schema validation
+2026-04-13 22:48:57 INFO  utils.AssertionUtils - [ASSERT PASS] validation of data list not empty in resources list
+2026-04-13 22:48:58 INFO  utils.AssertionUtils - [ASSERT PASS] response data validation
+2026-04-13 22:50:16 INFO  utils.AssertionUtils - [ASSERT PASS] Schema validation
+2026-04-13 22:50:16 INFO  Tests.GetUsersTest - Started Get Users Test
+2026-04-13 22:50:16 INFO  utils.AssertionUtils - [ASSERT PASS] Page number validation
+2026-04-13 22:50:17 INFO  utils.AssertionUtils - [ASSERT PASS] Schema validation
+2026-04-13 22:50:17 INFO  Tests.GetUsersTest - Get Users Test completed
+2026-04-13 22:50:17 INFO  Tests.ListResourcesTest - Started List resources Test
+2026-04-13 22:50:17 INFO  utils.AssertionUtils - [ASSERT PASS] List resources schema validation
+2026-04-13 22:50:17 INFO  utils.AssertionUtils - [ASSERT PASS] validation of data list not empty in resources list
+2026-04-13 22:50:18 INFO  utils.AssertionUtils - [ASSERT PASS] response data validation
+2026-04-13 22:50:18 INFO  Tests.ListResourcesTest - Get Users Test completed
+2026-04-13 22:50:18 INFO  utils.AssertionUtils - [ASSERT PASS] Update user schema validation
+2026-04-13 22:50:18 INFO  utils.AssertionUtils - [ASSERT PASS] Updated user validation
+2026-04-13 22:50:18 INFO  utils.AssertionUtils - [ASSERT PASS] Updated job validation
+2026-04-13 22:51:59 INFO  utils.AssertionUtils - [ASSERT PASS] Schema validation
+2026-04-13 22:51:59 INFO  Tests.GetUsersTest - Started Get Users Test
+2026-04-13 22:52:00 INFO  utils.AssertionUtils - [ASSERT PASS] Page number validation
+2026-04-13 22:52:00 INFO  utils.AssertionUtils - [ASSERT PASS] Schema validation
+2026-04-13 22:52:00 INFO  Tests.GetUsersTest - Get Users Test completed
+2026-04-13 22:52:00 INFO  Tests.ListResourcesTest - Started List resources Test
+2026-04-13 22:52:01 INFO  utils.AssertionUtils - [ASSERT PASS] List resources schema validation
+2026-04-13 22:52:01 INFO  utils.AssertionUtils - [ASSERT PASS] validation of data list not empty in resources list
+2026-04-13 22:52:01 INFO  utils.AssertionUtils - [ASSERT PASS] response data validation
+2026-04-13 22:52:01 INFO  Tests.ListResourcesTest - Get Users Test completed
+2026-04-13 22:52:01 INFO  utils.AssertionUtils - [ASSERT PASS] Update user schema validation
+2026-04-13 22:52:01 INFO  utils.AssertionUtils - [ASSERT PASS] Updated user validation
+2026-04-13 22:52:01 INFO  utils.AssertionUtils - [ASSERT PASS] Updated job validation
+2026-04-14 20:35:09 INFO  Tests.GenericResourceTest - Generic resource test started
+2026-04-14 20:35:12 INFO  utils.AssertionUtils - [ASSERT PASS] Generic resource schema validation
+2026-04-14 21:56:16 INFO  Tests.GenericResourceTest - Generic resource test started
+2026-04-14 21:56:18 INFO  utils.AssertionUtils - [ASSERT PASS] Generic resource schema validation
+2026-04-14 21:56:19 INFO  utils.AssertionUtils - [ASSERT PASS] Schema validation
+2026-04-14 21:56:19 INFO  Tests.GetUsersTest - Started Get Users Test
+2026-04-14 21:56:19 INFO  utils.AssertionUtils - [ASSERT PASS] Page number validation
+2026-04-14 21:56:20 INFO  utils.AssertionUtils - [ASSERT PASS] Schema validation
+2026-04-14 21:56:20 INFO  Tests.GetUsersTest - Get Users Test completed
+2026-04-14 21:56:20 INFO  Tests.ListResourcesTest - Started List resources Test
+2026-04-14 21:56:20 INFO  utils.AssertionUtils - [ASSERT PASS] List resources schema validation
+2026-04-14 21:56:20 INFO  utils.AssertionUtils - [ASSERT PASS] validation of data list not empty in resources list
+2026-04-14 21:56:21 INFO  utils.AssertionUtils - [ASSERT PASS] response data validation
+2026-04-14 21:56:21 INFO  Tests.ListResourcesTest - Get Users Test completed
+2026-04-14 21:56:21 INFO  utils.AssertionUtils - [ASSERT PASS] Update user schema validation
+2026-04-14 21:56:21 INFO  utils.AssertionUtils - [ASSERT PASS] Updated user validation
+2026-04-14 21:56:21 INFO  utils.AssertionUtils - [ASSERT PASS] Updated job validation
+2026-04-14 22:08:18 INFO  Tests.GetUsersTest - Started Get Users Test
+2026-04-14 22:08:18 INFO  Tests.GenericResourceTest - Generic resource test started
+2026-04-14 22:08:18 INFO  Tests.ListResourcesTest - Started List resources Test
+2026-04-14 22:08:20 INFO  utils.AssertionUtils - [ASSERT PASS] Page number validation
+2026-04-14 22:08:21 INFO  utils.AssertionUtils - [ASSERT PASS] Generic resource schema validation
+2026-04-14 22:08:21 INFO  utils.AssertionUtils - [ASSERT PASS] List resources schema validation
+2026-04-14 22:08:21 INFO  utils.AssertionUtils - [ASSERT PASS] validation of data list not empty in resources list
+2026-04-14 22:08:21 INFO  utils.AssertionUtils - [ASSERT PASS] Update user schema validation
+2026-04-14 22:08:21 INFO  utils.AssertionUtils - [ASSERT PASS] Updated user validation
+2026-04-14 22:08:21 INFO  utils.AssertionUtils - [ASSERT PASS] Schema validation
+2026-04-14 22:08:21 INFO  utils.AssertionUtils - [ASSERT PASS] Updated job validation
+2026-04-14 22:08:21 INFO  utils.AssertionUtils - [ASSERT PASS] Schema validation
+2026-04-14 22:08:21 INFO  Tests.GetUsersTest - Get Users Test completed
+2026-04-14 22:08:21 INFO  utils.AssertionUtils - [ASSERT PASS] response data validation
+2026-04-14 22:08:21 INFO  Tests.ListResourcesTest - Get Users Test completed
+2026-04-14 22:18:12 INFO  Tests.ListResourcesTest - Thread: TestNG-test-All Tests-5Thread ID: 30 | Test : getResourcesList | Class :ListResourcesTest
+2026-04-14 22:18:12 INFO  Tests.GenericResourceTest - Thread: TestNG-test-All Tests-2Thread ID: 27 | Test : getGenericResource | Class :GenericResourceTest
+2026-04-14 22:18:12 INFO  Tests.DeleteUserTest - Thread: TestNG-test-All Tests-1Thread ID: 26 | Test : deleteUser | Class :DeleteUserTest
+2026-04-14 22:18:12 INFO  Tests.GetSingleUserTest - Thread: TestNG-test-All Tests-3Thread ID: 28 | Test : getSingleUserTest | Class :GetSingleUserTest
+2026-04-14 22:18:12 INFO  Tests.GetUsersTest - Thread: TestNG-test-All Tests-4Thread ID: 29 | Test : getUsersTest | Class :GetUsersTest
+2026-04-14 22:18:12 INFO  Tests.UpdateUserTest - Thread: TestNG-test-All Tests-6Thread ID: 31 | Test : updateUserTest | Class :UpdateUserTest
+2026-04-14 22:18:12 INFO  Tests.GetUsersTest - Started Get Users Test
+2026-04-14 22:18:12 INFO  Tests.GenericResourceTest - Generic resource test started
+2026-04-14 22:18:12 INFO  Tests.ListResourcesTest - Started List resources Test
+2026-04-14 22:18:14 INFO  Tests.DeleteUserTest - Thread ID: 26 | Completed Test: deleteUser
+2026-04-14 22:18:14 INFO  utils.AssertionUtils - [ASSERT PASS] Page number validation
+2026-04-14 22:18:15 INFO  utils.AssertionUtils - [ASSERT PASS] Generic resource schema validation
+2026-04-14 22:18:15 INFO  Tests.GenericResourceTest - Thread ID: 27 | Completed Test: getGenericResource
+2026-04-14 22:18:15 INFO  utils.AssertionUtils - [ASSERT PASS] List resources schema validation
+2026-04-14 22:18:15 INFO  utils.AssertionUtils - [ASSERT PASS] validation of data list not empty in resources list
+2026-04-14 22:18:15 INFO  utils.AssertionUtils - [ASSERT PASS] Update user schema validation
+2026-04-14 22:18:15 INFO  utils.AssertionUtils - [ASSERT PASS] Updated user validation
+2026-04-14 22:18:15 INFO  utils.AssertionUtils - [ASSERT PASS] Schema validation
+2026-04-14 22:18:15 INFO  Tests.GetSingleUserTest - Thread ID: 28 | Completed Test: getSingleUserTest
+2026-04-14 22:18:15 INFO  utils.AssertionUtils - [ASSERT PASS] Updated job validation
+2026-04-14 22:18:15 INFO  Tests.UpdateUserTest - Thread ID: 31 | Completed Test: updateUserTest
+2026-04-14 22:18:15 INFO  utils.AssertionUtils - [ASSERT PASS] Schema validation
+2026-04-14 22:18:15 INFO  Tests.GetUsersTest - Get Users Test completed
+2026-04-14 22:18:15 INFO  Tests.GetUsersTest - Thread ID: 29 | Completed Test: getUsersTest
+2026-04-14 22:18:15 INFO  utils.AssertionUtils - [ASSERT PASS] response data validation
+2026-04-14 22:18:15 INFO  Tests.ListResourcesTest - Get Users Test completed
+2026-04-14 22:18:15 INFO  Tests.ListResourcesTest - Thread ID: 30 | Completed Test: getResourcesList
+2026-05-05 20:49:45 INFO  Tests.GetUsersTest - Thread: TestNG-test-All Tests-4Thread ID: 27 | Test : getUsersTest | Class :GetUsersTest
+2026-05-05 20:49:45 INFO  Tests.ListResourcesTest - Thread: TestNG-test-All Tests-5Thread ID: 28 | Test : getResourcesList | Class :ListResourcesTest
+2026-05-05 20:49:45 INFO  Tests.UpdateUserTest - Thread: TestNG-test-All Tests-6Thread ID: 29 | Test : updateUserTest | Class :UpdateUserTest
+2026-05-05 20:49:45 INFO  Tests.GenericResourceTest - Thread: TestNG-test-All Tests-2Thread ID: 25 | Test : getGenericResource | Class :GenericResourceTest
+2026-05-05 20:49:45 INFO  Tests.DeleteUserTest - Thread: TestNG-test-All Tests-1Thread ID: 24 | Test : deleteUser | Class :DeleteUserTest
+2026-05-05 20:49:45 INFO  Tests.GetSingleUserTest - Thread: TestNG-test-All Tests-3Thread ID: 26 | Test : getSingleUserTest | Class :GetSingleUserTest
+2026-05-05 20:49:45 INFO  Tests.GetUsersTest - Started Get Users Test
+2026-05-05 20:49:45 INFO  Tests.ListResourcesTest - Started List resources Test
+2026-05-05 20:49:45 INFO  Tests.GenericResourceTest - Generic resource test started
+2026-05-05 20:49:48 INFO  Tests.DeleteUserTest - Thread ID: 24 | Completed Test: deleteUser
+2026-05-05 20:49:48 INFO  utils.AssertionUtils - [ASSERT PASS] Page number validation
+2026-05-05 20:49:48 INFO  utils.AssertionUtils - [ASSERT PASS] Generic resource schema validation
+2026-05-05 20:49:48 INFO  Tests.GenericResourceTest - Thread ID: 25 | Completed Test: getGenericResource
+2026-05-05 20:49:48 INFO  utils.AssertionUtils - [ASSERT PASS] List resources schema validation
+2026-05-05 20:49:48 INFO  utils.AssertionUtils - [ASSERT PASS] validation of data list not empty in resources list
+2026-05-05 20:49:48 INFO  utils.AssertionUtils - [ASSERT PASS] Update user schema validation
+2026-05-05 20:49:48 INFO  utils.AssertionUtils - [ASSERT PASS] Updated user validation
+2026-05-05 20:49:49 INFO  utils.AssertionUtils - [ASSERT PASS] Schema validation
+2026-05-05 20:49:49 INFO  Tests.GetSingleUserTest - Thread ID: 26 | Completed Test: getSingleUserTest
+2026-05-05 20:49:49 INFO  utils.AssertionUtils - [ASSERT PASS] Updated job validation
+2026-05-05 20:49:49 INFO  Tests.UpdateUserTest - Thread ID: 29 | Completed Test: updateUserTest
+2026-05-05 20:49:49 INFO  utils.AssertionUtils - [ASSERT PASS] Schema validation
+2026-05-05 20:49:49 INFO  Tests.GetUsersTest - Get Users Test completed
+2026-05-05 20:49:49 INFO  Tests.GetUsersTest - Thread ID: 27 | Completed Test: getUsersTest
+2026-05-05 20:49:49 INFO  utils.AssertionUtils - [ASSERT PASS] response data validation
+2026-05-05 20:49:49 INFO  Tests.ListResourcesTest - Get Users Test completed
+2026-05-05 20:49:49 INFO  Tests.ListResourcesTest - Thread ID: 28 | Completed Test: getResourcesList
+2026-05-05 20:51:50 INFO  Tests.DeleteUserTest - Thread: TestNG-test-All Tests-1Thread ID: 25 | Test : deleteUser | Class :DeleteUserTest
+2026-05-05 20:51:50 INFO  Tests.ListResourcesTest - Thread: TestNG-test-All Tests-5Thread ID: 29 | Test : getResourcesList | Class :ListResourcesTest
+2026-05-05 20:51:50 INFO  Tests.UpdateUserTest - Thread: TestNG-test-All Tests-6Thread ID: 30 | Test : updateUserTest | Class :UpdateUserTest
+2026-05-05 20:51:50 INFO  Tests.GetSingleUserTest - Thread: TestNG-test-All Tests-3Thread ID: 27 | Test : getSingleUserTest | Class :GetSingleUserTest
+2026-05-05 20:51:50 INFO  Tests.GenericResourceTest - Thread: TestNG-test-All Tests-2Thread ID: 26 | Test : getGenericResource | Class :GenericResourceTest
+2026-05-05 20:51:50 INFO  Tests.GetUsersTest - Thread: TestNG-test-All Tests-4Thread ID: 28 | Test : getUsersTest | Class :GetUsersTest
+2026-05-05 20:51:51 INFO  Tests.GetUsersTest - Started Get Users Test
+2026-05-05 20:51:51 INFO  Tests.ListResourcesTest - Started List resources Test
+2026-05-05 20:51:51 INFO  Tests.GenericResourceTest - Generic resource test started
+2026-05-05 20:51:53 INFO  Tests.DeleteUserTest - Thread ID: 25 | Completed Test: deleteUser
+2026-05-05 20:51:53 INFO  utils.AssertionUtils - [ASSERT PASS] Page number validation
+2026-05-05 20:51:53 INFO  utils.AssertionUtils - [ASSERT PASS] Generic resource schema validation
+2026-05-05 20:51:53 INFO  utils.AssertionUtils - [ASSERT PASS] List resources schema validation
+2026-05-05 20:51:53 INFO  utils.AssertionUtils - [ASSERT PASS] validation of data list not empty in resources list
+2026-05-05 20:51:53 INFO  Tests.GenericResourceTest - Thread ID: 26 | Completed Test: getGenericResource
+2026-05-05 20:51:53 INFO  utils.AssertionUtils - [ASSERT PASS] Update user schema validation
+2026-05-05 20:51:53 INFO  utils.AssertionUtils - [ASSERT PASS] Updated user validation
+2026-05-05 20:51:54 INFO  utils.AssertionUtils - [ASSERT PASS] Schema validation
+2026-05-05 20:51:54 INFO  Tests.GetSingleUserTest - Thread ID: 27 | Completed Test: getSingleUserTest
+2026-05-05 20:51:54 INFO  utils.AssertionUtils - [ASSERT PASS] Updated job validation
+2026-05-05 20:51:54 INFO  Tests.UpdateUserTest - Thread ID: 30 | Completed Test: updateUserTest
+2026-05-05 20:51:54 INFO  utils.AssertionUtils - [ASSERT PASS] Schema validation
+2026-05-05 20:51:54 INFO  Tests.GetUsersTest - Get Users Test completed
+2026-05-05 20:51:54 INFO  Tests.GetUsersTest - Thread ID: 28 | Completed Test: getUsersTest
+2026-05-05 20:51:54 INFO  utils.AssertionUtils - [ASSERT PASS] response data validation
+2026-05-05 20:51:54 INFO  Tests.ListResourcesTest - Get Users Test completed
+2026-05-05 20:51:54 INFO  Tests.ListResourcesTest - Thread ID: 29 | Completed Test: getResourcesList

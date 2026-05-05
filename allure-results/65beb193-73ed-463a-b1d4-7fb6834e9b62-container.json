@@ -1,0 +1,1 @@
+{"uuid":"65beb193-73ed-463a-b1d4-7fb6834e9b62","name":"Tests.GenericResourceTest","children":["d8e9e59e-7e5f-43ce-9bc8-365385959080"],"befores":[{"name":"setup","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1776184697597,"stop":1776184698318}],"afters":[],"start":1776184697537,"stop":1776184701808}

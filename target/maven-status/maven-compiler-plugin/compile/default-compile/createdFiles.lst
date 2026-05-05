@@ -1,5 +1,11 @@
-pojo\response\GetUsersResponse.class
+pojo\response\ListResourcesResponse.class
 clients\ReqresClient.class
 pojo\response\GetUserResponse.class
 pojo\response\Support.class
 pojo\response\User.class
+pojos\request\UpdateUserRequest.class
+pojo\response\Cta.class
+pojo\response\Meta.class
+pojo\response\GetUsersResponse.class
+pojo\response\Datum.class
+pojo\response\UpdateUserResponse.class

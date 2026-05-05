@@ -1,0 +1,170 @@
+{
+    "$schema": "http://json-schema.org/draft-06/schema#",
+    "$ref": "#/definitions/Welcome6",
+    "definitions": {
+        "Welcome6": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "page": {
+                    "type": "integer"
+                },
+                "per_page": {
+                    "type": "integer"
+                },
+                "total": {
+                    "type": "integer"
+                },
+                "total_pages": {
+                    "type": "integer"
+                },
+                "data": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/Datum"
+                    }
+                },
+                "support": {
+                    "$ref": "#/definitions/Support"
+                },
+                "_meta": {
+                    "$ref": "#/definitions/Meta"
+                }
+            },
+            "required": [
+                "_meta",
+                "data",
+                "page",
+                "per_page",
+                "support",
+                "total",
+                "total_pages"
+            ],
+            "title": "Welcome6"
+        },
+        "Meta": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "powered_by": {
+                    "type": "string"
+                },
+                "docs_url": {
+                    "type": "string",
+                    "format": "uri",
+                    "qt-uri-protocols": [
+                        "https"
+                    ]
+                },
+                "upgrade_url": {
+                    "type": "string",
+                    "format": "uri",
+                    "qt-uri-protocols": [
+                        "https"
+                    ]
+                },
+                "example_url": {
+                    "type": "string",
+                    "format": "uri",
+                    "qt-uri-protocols": [
+                        "https"
+                    ]
+                },
+                "variant": {
+                    "type": "string"
+                },
+                "message": {
+                    "type": "string"
+                },
+                "cta": {
+                    "$ref": "#/definitions/Cta"
+                },
+                "context": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "context",
+                "cta",
+                "docs_url",
+                "example_url",
+                "message",
+                "powered_by",
+                "upgrade_url",
+                "variant"
+            ],
+            "title": "Meta"
+        },
+        "Cta": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "label": {
+                    "type": "string"
+                },
+                "url": {
+                    "type": "string",
+                    "format": "uri",
+                    "qt-uri-protocols": [
+                        "https"
+                    ]
+                }
+            },
+            "required": [
+                "label",
+                "url"
+            ],
+            "title": "Cta"
+        },
+        "Datum": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "id": {
+                    "type": "integer"
+                },
+                "name": {
+                    "type": "string"
+                },
+                "year": {
+                    "type": "integer"
+                },
+                "color": {
+                    "type": "string"
+                },
+                "pantone_value": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "color",
+                "id",
+                "name",
+                "pantone_value",
+                "year"
+            ],
+            "title": "Datum"
+        },
+        "Support": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "url": {
+                    "type": "string",
+                    "format": "uri",
+                    "qt-uri-protocols": [
+                        "https"
+                    ]
+                },
+                "text": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "text",
+                "url"
+            ],
+            "title": "Support"
+        }
+    }
+}

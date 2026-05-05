@@ -1,11 +1,15 @@
 Tests\GetSingleUserTest.class
 listeners\AllureTestListener.class
 Base\BaseTest.class
+Tests\DeleteUserTest.class
 utils\SchemaConstants.class
 listeners\SimpleListener.class
+Tests\ListResourcesTest.class
+Tests\UpdateUserTest.class
 utils\AssertionUtils.class
 utils\LoggerHelper.class
 listeners\RetryAnalyzer.class
+Tests\GenericResourceTest.class
 Tests\GetUsersTest.class
 listeners\RetryListener.class
 utils\ConfigManager.class

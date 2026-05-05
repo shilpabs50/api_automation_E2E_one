@@ -1,86 +1,258 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-04-07T21:48:49 IST" name="Default suite" finished-at="2026-04-07T21:48:54 IST" duration-ms="4824">
+  <suite started-at="2026-05-05T20:49:44 IST" name="Reqres Automation Suite" finished-at="2026-05-05T20:49:49 IST" duration-ms="5226">
     <groups>
     </groups>
-    <test started-at="2026-04-07T21:48:49 IST" name="Default test" finished-at="2026-04-07T21:48:54 IST" duration-ms="4824">
+    <test started-at="2026-05-05T20:49:44 IST" name="All Tests" finished-at="2026-05-05T20:49:49 IST" duration-ms="5226">
       <class name="Tests.GetUsersTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.GetUsersTest@ea7a4c3]" started-at="2026-04-07T21:48:49 IST" name="setup" finished-at="2026-04-07T21:48:50 IST" duration-ms="687" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.GetUsersTest@34a20f16]" started-at="2026-05-05T20:49:44 IST" name="setup" finished-at="2026-05-05T20:49:45 IST" duration-ms="950" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.GetUsersTest@ea7a4c3]" started-at="2026-04-07T21:48:50 IST" name="setUp" finished-at="2026-04-07T21:48:51 IST" duration-ms="434" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="getUsersTest(org.testng.ITestContext)[pri:0, instance:Tests.GetUsersTest@ea7a4c3]" started-at="2026-04-07T21:48:51 IST" name="getUsersTest" finished-at="2026-04-07T21:48:54 IST" duration-ms="3532" status="FAIL">
+        <test-method is-config="true" signature="logTestStart(java.lang.reflect.Method)[pri:0, instance:Tests.GetUsersTest@34a20f16]" started-at="2026-05-05T20:49:45 IST" name="logTestStart" finished-at="2026-05-05T20:49:45 IST" duration-ms="22" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@35277c6c]]>
+                <![CDATA[public void Tests.GetUsersTest.getUsersTest(org.testng.ITestContext)]]>
               </value>
             </param>
           </params>
-          <exception class="org.assertj.core.api.SoftAssertionError">
-            <message>
-              <![CDATA[
-The following assertion failed:
-1) [Page number validation] 
-expected: 1
- but was: 2
-at AssertionUtils.verifyEquals(AssertionUtils.java:34)
-]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.assertj.core.api.SoftAssertionError: 
-The following assertion failed:
-1) [Page number validation] 
-expected: 1
- but was: 2
-at AssertionUtils.verifyEquals(AssertionUtils.java:34)
-
-at org.assertj.core.error.AssertionErrorCreator.multipleSoftAssertionsError(AssertionErrorCreator.java:100)
-at org.assertj.core.api.AbstractSoftAssertions.assertAll(AbstractSoftAssertions.java:37)
-at org.assertj.core.api.AbstractSoftAssertions.assertAll(AbstractSoftAssertions.java:42)
-at utils.AssertionUtils.assertAll(AssertionUtils.java:165)
-at Tests.GetUsersTest.getUsersTest(GetUsersTest.java:76)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.assertj.core.api.SoftAssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logTestStart -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.GetUsersTest@34a20f16]" started-at="2026-05-05T20:49:45 IST" name="setUp" finished-at="2026-05-05T20:49:45 IST" duration-ms="567" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="getUsersTest(org.testng.ITestContext)[pri:0, instance:Tests.GetUsersTest@34a20f16]" started-at="2026-05-05T20:49:45 IST" name="getUsersTest" finished-at="2026-05-05T20:49:49 IST" duration-ms="3376" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@227e6c64]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getUsersTest -->
+        <test-method is-config="true" signature="logTestEnd(java.lang.reflect.Method)[pri:0, instance:Tests.GetUsersTest@34a20f16]" started-at="2026-05-05T20:49:49 IST" name="logTestEnd" finished-at="2026-05-05T20:49:49 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Tests.GetUsersTest.getUsersTest(org.testng.ITestContext)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logTestEnd -->
       </class> <!-- Tests.GetUsersTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="Tests.GetSingleUserTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.GetSingleUserTest@2ca54da9]" started-at="2026-05-05T20:49:44 IST" name="setup" finished-at="2026-05-05T20:49:45 IST" duration-ms="950" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="logTestStart(java.lang.reflect.Method)[pri:0, instance:Tests.GetSingleUserTest@2ca54da9]" started-at="2026-05-05T20:49:45 IST" name="logTestStart" finished-at="2026-05-05T20:49:45 IST" duration-ms="22" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Tests.GetSingleUserTest.getSingleUserTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logTestStart -->
+        <test-method signature="getSingleUserTest()[pri:0, instance:Tests.GetSingleUserTest@2ca54da9]" started-at="2026-05-05T20:49:45 IST" name="getSingleUserTest" finished-at="2026-05-05T20:49:49 IST" duration-ms="3746" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSingleUserTest -->
+        <test-method is-config="true" signature="logTestEnd(java.lang.reflect.Method)[pri:0, instance:Tests.GetSingleUserTest@2ca54da9]" started-at="2026-05-05T20:49:49 IST" name="logTestEnd" finished-at="2026-05-05T20:49:49 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Tests.GetSingleUserTest.getSingleUserTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logTestEnd -->
+      </class> <!-- Tests.GetSingleUserTest -->
+      <class name="Tests.ListResourcesTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.ListResourcesTest@496cc217]" started-at="2026-05-05T20:49:44 IST" name="setup" finished-at="2026-05-05T20:49:45 IST" duration-ms="950" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="logTestStart(java.lang.reflect.Method)[pri:0, instance:Tests.ListResourcesTest@496cc217]" started-at="2026-05-05T20:49:45 IST" name="logTestStart" finished-at="2026-05-05T20:49:45 IST" duration-ms="22" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Tests.ListResourcesTest.getResourcesList(org.testng.ITestContext)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logTestStart -->
+        <test-method is-config="true" signature="methodSetup()[pri:0, instance:Tests.ListResourcesTest@496cc217]" started-at="2026-05-05T20:49:45 IST" name="methodSetup" finished-at="2026-05-05T20:49:45 IST" duration-ms="567" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetup -->
+        <test-method signature="getResourcesList(org.testng.ITestContext)[pri:0, instance:Tests.ListResourcesTest@496cc217]" started-at="2026-05-05T20:49:45 IST" name="getResourcesList" finished-at="2026-05-05T20:49:49 IST" duration-ms="3466" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@227e6c64]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResourcesList -->
+        <test-method is-config="true" signature="logTestEnd(java.lang.reflect.Method)[pri:0, instance:Tests.ListResourcesTest@496cc217]" started-at="2026-05-05T20:49:49 IST" name="logTestEnd" finished-at="2026-05-05T20:49:49 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Tests.ListResourcesTest.getResourcesList(org.testng.ITestContext)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logTestEnd -->
+      </class> <!-- Tests.ListResourcesTest -->
+      <class name="Tests.UpdateUserTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.UpdateUserTest@1a1c21b4]" started-at="2026-05-05T20:49:44 IST" name="setup" finished-at="2026-05-05T20:49:45 IST" duration-ms="950" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="logTestStart(java.lang.reflect.Method)[pri:0, instance:Tests.UpdateUserTest@1a1c21b4]" started-at="2026-05-05T20:49:45 IST" name="logTestStart" finished-at="2026-05-05T20:49:45 IST" duration-ms="22" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Tests.UpdateUserTest.updateUserTest(org.testng.ITestContext)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logTestStart -->
+        <test-method is-config="true" signature="methodSetup()[pri:0, instance:Tests.UpdateUserTest@1a1c21b4]" started-at="2026-05-05T20:49:45 IST" name="methodSetup" finished-at="2026-05-05T20:49:45 IST" duration-ms="568" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetup -->
+        <test-method signature="updateUserTest(org.testng.ITestContext)[pri:0, instance:Tests.UpdateUserTest@1a1c21b4]" started-at="2026-05-05T20:49:45 IST" name="updateUserTest" finished-at="2026-05-05T20:49:49 IST" duration-ms="3349" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@227e6c64]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateUserTest -->
+        <test-method is-config="true" signature="logTestEnd(java.lang.reflect.Method)[pri:0, instance:Tests.UpdateUserTest@1a1c21b4]" started-at="2026-05-05T20:49:49 IST" name="logTestEnd" finished-at="2026-05-05T20:49:49 IST" duration-ms="9" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Tests.UpdateUserTest.updateUserTest(org.testng.ITestContext)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logTestEnd -->
+      </class> <!-- Tests.UpdateUserTest -->
+      <class name="Tests.DeleteUserTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.DeleteUserTest@2a0b901c]" started-at="2026-05-05T20:49:44 IST" name="setup" finished-at="2026-05-05T20:49:45 IST" duration-ms="950" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="logTestStart(java.lang.reflect.Method)[pri:0, instance:Tests.DeleteUserTest@2a0b901c]" started-at="2026-05-05T20:49:45 IST" name="logTestStart" finished-at="2026-05-05T20:49:45 IST" duration-ms="22" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Tests.DeleteUserTest.deleteUser(org.testng.ITestContext)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logTestStart -->
+        <test-method is-config="true" signature="methodSetup()[pri:0, instance:Tests.DeleteUserTest@2a0b901c]" started-at="2026-05-05T20:49:45 IST" name="methodSetup" finished-at="2026-05-05T20:49:45 IST" duration-ms="568" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetup -->
+        <test-method signature="deleteUser(org.testng.ITestContext)[pri:0, instance:Tests.DeleteUserTest@2a0b901c]" started-at="2026-05-05T20:49:45 IST" name="deleteUser" finished-at="2026-05-05T20:49:48 IST" duration-ms="2026" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@227e6c64]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUser -->
+        <test-method is-config="true" signature="logTestEnd(java.lang.reflect.Method)[pri:0, instance:Tests.DeleteUserTest@2a0b901c]" started-at="2026-05-05T20:49:48 IST" name="logTestEnd" finished-at="2026-05-05T20:49:48 IST" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Tests.DeleteUserTest.deleteUser(org.testng.ITestContext)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logTestEnd -->
+      </class> <!-- Tests.DeleteUserTest -->
+      <class name="Tests.GenericResourceTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.GenericResourceTest@382d71c7]" started-at="2026-05-05T20:49:44 IST" name="setup" finished-at="2026-05-05T20:49:45 IST" duration-ms="949" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="logTestStart(java.lang.reflect.Method)[pri:0, instance:Tests.GenericResourceTest@382d71c7]" started-at="2026-05-05T20:49:45 IST" name="logTestStart" finished-at="2026-05-05T20:49:45 IST" duration-ms="22" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Tests.GenericResourceTest.getGenericResource(org.testng.ITestContext)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logTestStart -->
+        <test-method is-config="true" signature="methodsetUp()[pri:0, instance:Tests.GenericResourceTest@382d71c7]" started-at="2026-05-05T20:49:45 IST" name="methodsetUp" finished-at="2026-05-05T20:49:45 IST" duration-ms="567" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodsetUp -->
+        <test-method signature="getGenericResource(org.testng.ITestContext)[pri:0, instance:Tests.GenericResourceTest@382d71c7]" started-at="2026-05-05T20:49:45 IST" name="getGenericResource" finished-at="2026-05-05T20:49:48 IST" duration-ms="2788" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@227e6c64]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getGenericResource -->
+        <test-method is-config="true" signature="logTestEnd(java.lang.reflect.Method)[pri:0, instance:Tests.GenericResourceTest@382d71c7]" started-at="2026-05-05T20:49:48 IST" name="logTestEnd" finished-at="2026-05-05T20:49:48 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Tests.GenericResourceTest.getGenericResource(org.testng.ITestContext)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logTestEnd -->
+      </class> <!-- Tests.GenericResourceTest -->
+    </test> <!-- All Tests -->
+  </suite> <!-- Reqres Automation Suite -->
 </testng-results>

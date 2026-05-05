@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="7.115" tests="2" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="7.091" tests="6" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
-    <property name="sun.java.command" value="C:\Users\shilp\AppData\Local\Temp\surefire7861524714133003103\surefirebooter-20260409222108291_3.jar C:\Users\shilp\AppData\Local\Temp\surefire7861524714133003103 2026-04-09T22-21-08_174-jvmRun1 surefire-20260409222108291_1tmp surefire_0-20260409222108291_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\shilp\AppData\Local\Temp\surefire14932224052199209996\surefirebooter-20260505205146800_3.jar C:\Users\shilp\AppData\Local\Temp\surefire14932224052199209996 2026-05-05T20-51-46_654-jvmRun1 surefire-20260505205146800_1tmp surefire_0-20260505205146800_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\shilp\new-eclipse-workspace\FrameworkOne\target\test-classes;C:\Users\shilp\new-eclipse-workspace\FrameworkOne\target\classes;C:\Users\shilp\.m2\repository\io\rest-assured\rest-assured\5.4.0\rest-assured-5.4.0.jar;C:\Users\shilp\.m2\repository\org\apache\groovy\groovy\4.0.16\groovy-4.0.16.jar;C:\Users\shilp\.m2\repository\org\apache\groovy\groovy-xml\4.0.16\groovy-xml-4.0.16.jar;C:\Users\shilp\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\shilp\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\shilp\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\shilp\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\shilp\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\shilp\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\shilp\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\shilp\.m2\repository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar;C:\Users\shilp\.m2\repository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar;C:\Users\shilp\.m2\repository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar;C:\Users\shilp\.m2\repository\io\rest-assured\xml-path\5.4.0\xml-path-5.4.0.jar;C:\Users\shilp\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\shilp\.m2\repository\org\testng\testng\7.9.0\testng-7.9.0.jar;C:\Users\shilp\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\shilp\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\shilp\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\shilp\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.17.0\jackson-databind-2.17.0.jar;C:\Users\shilp\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.17.0\jackson-annotations-2.17.0.jar;C:\Users\shilp\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.17.0\jackson-core-2.17.0.jar;C:\Users\shilp\.m2\repository\net\bytebuddy\byte-buddy\1.14.9\byte-buddy-1.14.9.jar;C:\Users\shilp\.m2\repository\org\assertj\assertj-core\3.25.3\assertj-core-3.25.3.jar;C:\Users\shilp\.m2\repository\org\projectlombok\lombok\1.18.32\lombok-1.18.32.jar;C:\Users\shilp\.m2\repository\io\qameta\allure\allure-testng\2.24.0\allure-testng-2.24.0.jar;C:\Users\shilp\.m2\repository\io\qameta\allure\allure-java-commons\2.24.0\allure-java-commons-2.24.0.jar;C:\Users\shilp\.m2\repository\io\qameta\allure\allure-model\2.24.0\allure-model-2.24.0.jar;C:\Users\shilp\.m2\repository\io\qameta\allure\allure-test-filter\2.24.0\allure-test-filter-2.24.0.jar;C:\Users\shilp\.m2\repository\io\qameta\allure\allure-rest-assured\2.33.0\allure-rest-assured-2.33.0.jar;C:\Users\shilp\.m2\repository\io\qameta\allure\allure-attachments\2.33.0\allure-attachments-2.33.0.jar;C:\Users\shilp\.m2\repository\org\freemarker\freemarker\2.3.33\freemarker-2.3.33.jar;C:\Users\shilp\.m2\repository\org\aspectj\aspectjweaver\1.9.21\aspectjweaver-1.9.21.jar;C:\Users\shilp\.m2\repository\io\rest-assured\json-schema-validator\5.4.0\json-schema-validator-5.4.0.jar;C:\Users\shilp\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\shilp\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\shilp\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\shilp\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\shilp\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\shilp\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\shilp\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\shilp\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\shilp\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\shilp\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\shilp\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\shilp\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\shilp\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\shilp\.m2\repository\com\google\guava\guava\32.0.1-jre\guava-32.0.1-jre.jar;C:\Users\shilp\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\shilp\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\shilp\.m2\repository\org\checkerframework\checker-qual\3.33.0\checker-qual-3.33.0.jar;C:\Users\shilp\.m2\repository\com\google\errorprone\error_prone_annotations\2.18.0\error_prone_annotations-2.18.0.jar;C:\Users\shilp\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\shilp\.m2\repository\org\apache\logging\log4j\log4j-api\2.23.1\log4j-api-2.23.1.jar;C:\Users\shilp\.m2\repository\org\apache\logging\log4j\log4j-core\2.23.1\log4j-core-2.23.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\shilp\AppData\Local\Temp\surefire7861524714133003103\surefirebooter-20260409222108291_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\shilp\AppData\Local\Temp\surefire14932224052199209996\surefirebooter-20260505205146800_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17+35-LTS-2724"/>
@@ -49,16 +49,81 @@
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="native.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\strawberry\c\bin;C:\strawberry\perl\bin;C:\Program Files\Java\jdk-17\bin;C:\Users\shilp\OneDrive\Documents\NodeJS\;C:\sqlite;C:\allure\allure-2.36.0\bin;C:\maven\apache-maven-3.9.12\bin;C:\Users\shilp\AppData\Local\Microsoft\WindowsApps;C:\Users\shilp\AppData\Local\GitHubDesktop\bin;C:\Users\shilp\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\strawberry\c\bin;C:\strawberry\perl\bin;C:\Program Files\Java\jdk-17\bin;C:\Users\shilp\OneDrive\Documents\NodeJS\;C:\sqlite;C:\allure\allure-2.36.0\bin;C:\maven\apache-maven-3.9.12\bin;;C:\Program Files\Docker\Docker\resources\bin;C:\Users\shilp\AppData\Local\Microsoft\WindowsApps;C:\Users\shilp\AppData\Local\GitHubDesktop\bin;C:\Users\shilp\AppData\Local\Programs\Microsoft VS Code\bin;."/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="java.vm.version" value="17+35-LTS-2724"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="getSingleUserTest" classname="Tests.GetSingleUserTest" time="3.11">
-    <system-out><![CDATA[2026-04-09T16:51:10.643716500Z main ERROR Unable to locate appender "AllureAppender" for logger config "root"
+  <testcase name="deleteUser[org.testng.TestRunner@5a00df60](1)" classname="Tests.DeleteUserTest" time="1.855">
+    <system-out><![CDATA[...
+... TestNG 7.9.0 by Cédric Beust (cedric@beust.com)
+...
+
+2026-05-05T15:21:49.452318700Z main ERROR Unable to locate appender "AllureAppender" for logger config "root"
 Loaded environment: qa
+20:51:50 [TestNG-test-All Tests-1] INFO  Tests.DeleteUserTest - Thread: TestNG-test-All Tests-1Thread ID: 25 | Test : deleteUser | Class :DeleteUserTest
+20:51:50 [TestNG-test-All Tests-5] INFO  Tests.ListResourcesTest - Thread: TestNG-test-All Tests-5Thread ID: 29 | Test : getResourcesList | Class :ListResourcesTest
+20:51:50 [TestNG-test-All Tests-6] INFO  Tests.UpdateUserTest - Thread: TestNG-test-All Tests-6Thread ID: 30 | Test : updateUserTest | Class :UpdateUserTest
+20:51:50 [TestNG-test-All Tests-3] INFO  Tests.GetSingleUserTest - Thread: TestNG-test-All Tests-3Thread ID: 27 | Test : getSingleUserTest | Class :GetSingleUserTest
+20:51:50 [TestNG-test-All Tests-2] INFO  Tests.GenericResourceTest - Thread: TestNG-test-All Tests-2Thread ID: 26 | Test : getGenericResource | Class :GenericResourceTest
+20:51:50 [TestNG-test-All Tests-4] INFO  Tests.GetUsersTest - Thread: TestNG-test-All Tests-4Thread ID: 28 | Test : getUsersTest | Class :GetUsersTest
+20:51:51 [TestNG-test-All Tests-4] INFO  Tests.GetUsersTest - Started Get Users Test
+20:51:51 [TestNG-test-All Tests-5] INFO  Tests.ListResourcesTest - Started List resources Test
+20:51:51 [TestNG-test-All Tests-2] INFO  Tests.GenericResourceTest - Generic resource test started
+Request method:	GET
+Request URI:	https://reqres.in/api/users?page=2
+Proxy:			<none>
+Request params:	<none>
+Query params:	page=2
+Form params:	<none>
+Path params:	<none>
+Headers:		x-api-key=reqres_6a55fcc85e5c43ea80cc04fa74753b6e
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	DELETE
+Request URI:	https://reqres.in/api/users/2
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		x-api-key=reqres_6a55fcc85e5c43ea80cc04fa74753b6e
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	GET
+Request URI:	https://reqres.in/api/unknown
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		x-api-key=reqres_6a55fcc85e5c43ea80cc04fa74753b6e
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	GET
+Request URI:	https://reqres.in/api/products?page=1
+Proxy:			<none>
+Request params:	<none>
+Query params:	page=1
+Form params:	<none>
+Path params:	<none>
+Headers:		x-api-key=reqres_6a55fcc85e5c43ea80cc04fa74753b6e
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
 Request method:	GET
 Request URI:	https://reqres.in/api/users/2
 Proxy:			<none>
@@ -72,8 +137,89 @@ Headers:		x-api-key=reqres_6a55fcc85e5c43ea80cc04fa74753b6e
 Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
+Request method:	PUT
+Request URI:	https://reqres.in/api/users/2
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		x-api-key=reqres_6a55fcc85e5c43ea80cc04fa74753b6e
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "krishna",
+    "job": "scholar"
+}
 HTTP/1.1 200 OK
-Date: Thu, 09 Apr 2026 16:51:13 GMT
+Date: Tue, 05 May 2026 15:21:53 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Cache-Control: no-store
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Etag: W/"1e0-dPK7dciUVcbF7Sgklzb7dEPnqNQ"
+Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+Origin-Agent-Cluster: ?1
+Ratelimit-Limit: 20
+Ratelimit-Policy: 20;w=60
+Ratelimit-Remaining: 19
+Ratelimit-Reset: 60
+Referrer-Policy: strict-origin-when-cross-origin
+Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=9ukipZ0tCjoFMZKI3BrX1HadVgwGvdAwwSEsFeEuLsM%3D\u0026sid=c4c9725f-1ab0-44d8-820f-430df2718e11\u0026ts=1777994513"}],"max_age":3600}
+Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=9ukipZ0tCjoFMZKI3BrX1HadVgwGvdAwwSEsFeEuLsM%3D&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&ts=1777994513"
+Server: cloudflare
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Via: 1.1 heroku-router
+X-Content-Type-Options: nosniff
+X-Dns-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: DENY
+X-Permitted-Cross-Domain-Policies: none
+X-Powered-By: ReqRes.in - Deploy backends in 30 seconds
+X-Ratelimit-Limit: 250
+X-Ratelimit-Remaining: 243
+X-Ratelimit-Reset: 1778025600
+X-Reqres-Docs: https://reqres.in
+X-Reqres-Message: This API is powered by ReqRes. Deploy your own backend in 30 seconds!
+X-Reqres-Templates: https://app.reqres.in/templates
+X-Reqres-Tip: Add real user auth to your app with magic codes - reqres.in/docs
+X-Reqres-Trial: true
+X-Reqres-Trial-Days-Remaining: 0
+X-Reqres-Trial-Expires: 2026-04-11T10:42:53.256Z
+X-Reqres-Upgrade: https://app.reqres.in/upgrade
+X-Request-Id: 2e8c01ba-95a4-8534-4c31-cd4bd3f9e857
+X-Robots-Tag: noindex, nofollow
+X-Xss-Protection: 0
+cf-cache-status: DYNAMIC
+Content-Encoding: gzip
+CF-RAY: 9f70bccceaeb7f10-MAA
+
+{
+    "name": "krishna",
+    "job": "scholar",
+    "updatedAt": "2026-05-05T15:21:53.535Z",
+    "_meta": {
+        "powered_by": "ReqRes",
+        "docs_url": "https://app.reqres.in/documentation",
+        "upgrade_url": "https://app.reqres.in/upgrade",
+        "example_url": "https://app.reqres.in/examples/notes-app",
+        "variant": "v1_b",
+        "message": "This is a read-only demo endpoint. Sign up to create your own collections with full CRUD and auth.",
+        "cta": {
+            "label": "Get started",
+            "url": "https://app.reqres.in/upgrade"
+        },
+        "context": "legacy_success"
+    }
+}
+HTTP/1.1 200 OK
+Date: Tue, 05 May 2026 15:21:53 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -90,8 +236,8 @@ Ratelimit-Policy: 20;w=60
 Ratelimit-Remaining: 19
 Ratelimit-Reset: 60
 Referrer-Policy: strict-origin-when-cross-origin
-Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=C%2BpJW5rAiR5e6Yu8MELKdz1d3iFdDATJw3rHu0O3p3k%3D\u0026sid=c4c9725f-1ab0-44d8-820f-430df2718e11\u0026ts=1775753234"}],"max_age":3600}
-Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=C%2BpJW5rAiR5e6Yu8MELKdz1d3iFdDATJw3rHu0O3p3k%3D&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&ts=1775753234"
+Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=GHCTkvvgkVcWol0Fe91BslKF7U38zNlBWtIqXlDZ634%3D\u0026sid=c4c9725f-1ab0-44d8-820f-430df2718e11\u0026ts=1777994388"}],"max_age":3600}
+Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=GHCTkvvgkVcWol0Fe91BslKF7U38zNlBWtIqXlDZ634%3D&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&ts=1777994388"
 Server: cloudflare
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Via: 1.1 heroku-router
@@ -102,22 +248,22 @@ X-Frame-Options: DENY
 X-Permitted-Cross-Domain-Policies: none
 X-Powered-By: ReqRes.in - Deploy backends in 30 seconds
 X-Ratelimit-Limit: 250
-X-Ratelimit-Remaining: 228
-X-Ratelimit-Reset: 1775779200
+X-Ratelimit-Remaining: 248
+X-Ratelimit-Reset: 1778025600
 X-Reqres-Docs: https://reqres.in
 X-Reqres-Message: This API is powered by ReqRes. Deploy your own backend in 30 seconds!
 X-Reqres-Templates: https://app.reqres.in/templates
 X-Reqres-Tip: Build with your own data, not fixtures - app.reqres.in/dashboard
 X-Reqres-Trial: true
-X-Reqres-Trial-Days-Remaining: 13
-X-Reqres-Trial-Expires: 2026-04-22T09:24:46.676Z
+X-Reqres-Trial-Days-Remaining: 0
+X-Reqres-Trial-Expires: 2026-04-11T10:42:53.256Z
 X-Reqres-Upgrade: https://app.reqres.in/upgrade
-X-Request-Id: dcdd10b8-8da2-0e4f-4fdb-24702cc69409
+X-Request-Id: aba6005d-6a98-6b4c-9716-7cbc39baa6c1
 X-Robots-Tag: noindex, nofollow
 X-Xss-Protection: 0
 cf-cache-status: REVALIDATED
 Content-Encoding: gzip
-CF-RAY: 9e9b03e7aca6f313-BLR
+CF-RAY: 9f70bcccea9e7e72-MAA
 
 {
     "data": {
@@ -145,39 +291,14 @@ CF-RAY: 9e9b03e7aca6f313-BLR
         "context": "legacy_success"
     }
 }
-22:21:14 [main] INFO  utils.AssertionUtils - [ASSERT PASS] Schema validation
-]]></system-out>
-    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
-SLF4J: Defaulting to no-operation (NOP) logger implementation
-SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-]]></system-err>
-  </testcase>
-  <testcase name="getUsersTest[org.testng.TestRunner@6896ef29](1)" classname="Tests.GetUsersTest" time="1.161">
-    <system-out><![CDATA[22:21:14 [main] INFO  Tests.GetUsersTest - Started Get Users Test
-Request method:	GET
-Request URI:	https://reqres.in/api/users?page=2
-Proxy:			<none>
-Request params:	<none>
-Query params:	page=2
-Form params:	<none>
-Path params:	<none>
-Headers:		x-api-key=reqres_6a55fcc85e5c43ea80cc04fa74753b6e
-				Accept=*/*
-				Content-Type=application/json
-Cookies:		<none>
-Multiparts:		<none>
-Body:			<none>
-HTTP/1.1 200 OK
-Date: Thu, 09 Apr 2026 16:51:15 GMT
-Content-Type: application/json; charset=utf-8
-Transfer-Encoding: chunked
+HTTP/1.1 204 No Content
+Date: Tue, 05 May 2026 15:21:53 GMT
 Connection: keep-alive
 Access-Control-Allow-Origin: *
-Cache-Control: public, max-age=14400, s-maxage=60
-cdn-cache-control: max-age=60
+Cache-Control: no-store
 Cross-Origin-Opener-Policy: same-origin
 Cross-Origin-Resource-Policy: same-origin
-etag: W/"5f6-+6NJQG10Gk4CkQ8jUhrGczGADWk"
+Etag: W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"
 Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
 Origin-Agent-Cluster: ?1
 Ratelimit-Limit: 20
@@ -185,8 +306,8 @@ Ratelimit-Policy: 20;w=60
 Ratelimit-Remaining: 19
 Ratelimit-Reset: 60
 Referrer-Policy: strict-origin-when-cross-origin
-Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=fqeEX5%2BZsDJ4ZYib1qUcti6JLfEdk8RJs7ohuXpovRE%3D\u0026sid=c4c9725f-1ab0-44d8-820f-430df2718e11\u0026ts=1775743236"}],"max_age":3600}
-Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=fqeEX5%2BZsDJ4ZYib1qUcti6JLfEdk8RJs7ohuXpovRE%3D&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&ts=1775743236"
+Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=9ukipZ0tCjoFMZKI3BrX1HadVgwGvdAwwSEsFeEuLsM%3D\u0026sid=c4c9725f-1ab0-44d8-820f-430df2718e11\u0026ts=1777994513"}],"max_age":3600}
+Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=9ukipZ0tCjoFMZKI3BrX1HadVgwGvdAwwSEsFeEuLsM%3D&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&ts=1777994513"
 Server: cloudflare
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Via: 1.1 heroku-router
@@ -197,22 +318,67 @@ X-Frame-Options: DENY
 X-Permitted-Cross-Domain-Policies: none
 X-Powered-By: ReqRes.in - Deploy backends in 30 seconds
 X-Ratelimit-Limit: 250
-X-Ratelimit-Remaining: 248
-X-Ratelimit-Reset: 1775779200
+X-Ratelimit-Remaining: 241
+X-Ratelimit-Reset: 1778025600
 X-Reqres-Docs: https://reqres.in
 X-Reqres-Message: This API is powered by ReqRes. Deploy your own backend in 30 seconds!
 X-Reqres-Templates: https://app.reqres.in/templates
-X-Reqres-Tip: Need more than /api/users? Build custom collections - app.reqres.in/dashboard
+X-Reqres-Tip: Build with your own data, not fixtures - app.reqres.in/dashboard
 X-Reqres-Trial: true
-X-Reqres-Trial-Days-Remaining: 2
+X-Reqres-Trial-Days-Remaining: 0
 X-Reqres-Trial-Expires: 2026-04-11T10:42:53.256Z
 X-Reqres-Upgrade: https://app.reqres.in/upgrade
-X-Request-Id: d725bb11-7d3e-2c6f-1c93-efb18e01b8d0
+X-Request-Id: c210f93a-7af1-c134-56a1-49af3b3a431e
 X-Robots-Tag: noindex, nofollow
 X-Xss-Protection: 0
-cf-cache-status: REVALIDATED
+cf-cache-status: DYNAMIC
+CF-RAY: 9f70bccce8ea2f6d-MAA
+HTTP/1.1 200 OK
+Date: Tue, 05 May 2026 15:21:53 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Cache-Control: public, max-age=14400, s-maxage=60
+Cdn-Cache-Control: max-age=60
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Etag: W/"5f6-+6NJQG10Gk4CkQ8jUhrGczGADWk"
+Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+Origin-Agent-Cluster: ?1
+Ratelimit-Limit: 20
+Ratelimit-Policy: 20;w=60
+Ratelimit-Remaining: 19
+Ratelimit-Reset: 60
+Referrer-Policy: strict-origin-when-cross-origin
+Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=9ukipZ0tCjoFMZKI3BrX1HadVgwGvdAwwSEsFeEuLsM%3D\u0026sid=c4c9725f-1ab0-44d8-820f-430df2718e11\u0026ts=1777994513"}],"max_age":3600}
+Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=9ukipZ0tCjoFMZKI3BrX1HadVgwGvdAwwSEsFeEuLsM%3D&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&ts=1777994513"
+Server: cloudflare
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Via: 1.1 heroku-router
+X-Content-Type-Options: nosniff
+X-Dns-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: DENY
+X-Permitted-Cross-Domain-Policies: none
+X-Powered-By: ReqRes.in - Deploy backends in 30 seconds
+X-Ratelimit-Limit: 250
+X-Ratelimit-Remaining: 240
+X-Ratelimit-Reset: 1778025600
+X-Reqres-Docs: https://reqres.in
+X-Reqres-Message: This API is powered by ReqRes. Deploy your own backend in 30 seconds!
+X-Reqres-Templates: https://app.reqres.in/templates
+X-Reqres-Tip: Create your own backend with persistent data - app.reqres.in/dashboard
+X-Reqres-Trial: true
+X-Reqres-Trial-Days-Remaining: 0
+X-Reqres-Trial-Expires: 2026-04-11T10:42:53.256Z
+X-Reqres-Upgrade: https://app.reqres.in/upgrade
+X-Request-Id: aa6b80db-da18-a833-796f-1e60ce7b65c5
+X-Robots-Tag: noindex, nofollow
+X-Xss-Protection: 0
+cf-cache-status: MISS
 Content-Encoding: gzip
-CF-RAY: 9e9b03f3f9e3d3d4-BLR
+CF-RAY: 9f70bccce8799d73-MAA
 
 {
     "page": 2,
@@ -281,9 +447,257 @@ CF-RAY: 9e9b03f3f9e3d3d4-BLR
         "context": "legacy_success"
     }
 }
-22:21:15 [main] INFO  utils.AssertionUtils - [ASSERT PASS] Page number validation
-22:21:15 [main] INFO  utils.AssertionUtils - [ASSERT PASS] Schema validation
-22:21:15 [main] INFO  Tests.GetUsersTest - Get Users Test completed
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="getGenericResource[org.testng.TestRunner@5a00df60](1)" classname="Tests.GenericResourceTest" time="2.485">
+    <system-out><![CDATA[20:51:53 [TestNG-test-All Tests-1] INFO  Tests.DeleteUserTest - Thread ID: 25 | Completed Test: deleteUser
+HTTP/1.1 200 OK
+Date: Tue, 05 May 2026 15:21:53 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Cache-Control: public, max-age=14400, s-maxage=60
+cdn-cache-control: max-age=60
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+etag: W/"31a-vwdS/I5yrxrHBhOuKdrxcchUsO0"
+Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+Origin-Agent-Cluster: ?1
+Ratelimit-Limit: 100
+Ratelimit-Policy: 100;w=60
+Ratelimit-Remaining: 99
+Ratelimit-Reset: 60
+Referrer-Policy: strict-origin-when-cross-origin
+Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=GHCTkvvgkVcWol0Fe91BslKF7U38zNlBWtIqXlDZ634%3D\u0026sid=c4c9725f-1ab0-44d8-820f-430df2718e11\u0026ts=1777994388"}],"max_age":3600}
+Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=GHCTkvvgkVcWol0Fe91BslKF7U38zNlBWtIqXlDZ634%3D&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&ts=1777994388"
+Server: cloudflare
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Via: 1.1 heroku-router
+X-Content-Type-Options: nosniff
+X-Dns-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: DENY
+X-Permitted-Cross-Domain-Policies: none
+X-Powered-By: ReqRes.in - Deploy backends in 30 seconds
+X-Ratelimit-Limit: 250
+X-Ratelimit-Remaining: 245
+X-Ratelimit-Reset: 1778025600
+X-Reqres-Docs: https://reqres.in
+X-Reqres-Message: This API is powered by ReqRes. Deploy your own backend in 30 seconds!
+X-Reqres-Templates: https://app.reqres.in/templates
+X-Reqres-Tip: Generate a complete backend from a description - app.reqres.in/dashboard
+X-Reqres-Trial: true
+X-Reqres-Trial-Days-Remaining: 0
+X-Reqres-Trial-Expires: 2026-04-11T10:42:53.256Z
+X-Reqres-Upgrade: https://app.reqres.in/upgrade
+X-Request-Id: 6c8d24a9-bbc3-345d-a44f-4caf4d99fd19
+X-Robots-Tag: noindex, nofollow
+X-Xss-Protection: 0
+cf-cache-status: REVALIDATED
+Content-Encoding: gzip
+CF-RAY: 9f70bcccece1f56a-MAA
+
+{
+    "page": 1,
+    "per_page": 6,
+    "total": 12,
+    "total_pages": 2,
+    "data": [
+        {
+            "id": 1,
+            "name": "cerulean",
+            "year": 2000,
+            "color": "#98B2D1",
+            "pantone_value": "15-4020"
+        },
+        {
+            "id": 2,
+            "name": "fuchsia rose",
+            "year": 2001,
+            "color": "#C74375",
+            "pantone_value": "17-2031"
+        },
+        {
+            "id": 3,
+            "name": "true red",
+            "year": 2002,
+            "color": "#BF1932",
+            "pantone_value": "19-1664"
+        },
+        {
+            "id": 4,
+            "name": "aqua sky",
+            "year": 2003,
+            "color": "#7BC4C4",
+            "pantone_value": "14-4811"
+        },
+        {
+            "id": 5,
+            "name": "tigerlily",
+            "year": 2004,
+            "color": "#E2583E",
+            "pantone_value": "17-1456"
+        },
+        {
+            "id": 6,
+            "name": "blue turquoise",
+            "year": 2005,
+            "color": "#53B0AE",
+            "pantone_value": "15-5217"
+        }
+    ],
+    "support": {
+        "url": "https://benhowdle.im/first-cto-playbook?utm_source=reqres&utm_medium=json&utm_campaign=referral",
+        "text": "Become a better CTO. A playbook of painful stories and practical advice from a two-time startup CTO."
+    }
+}
+HTTP/1.1 200 OK
+Date: Tue, 05 May 2026 15:21:53 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Cache-Control: public, max-age=14400, s-maxage=60
+cdn-cache-control: max-age=60
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+etag: W/"4b1-D79Npu3rO5vZ45CAo83sR+/Z2Y0"
+Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+Origin-Agent-Cluster: ?1
+Ratelimit-Limit: 100
+Ratelimit-Policy: 100;w=60
+Ratelimit-Remaining: 99
+Ratelimit-Reset: 60
+Referrer-Policy: strict-origin-when-cross-origin
+Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=GHCTkvvgkVcWol0Fe91BslKF7U38zNlBWtIqXlDZ634%3D\u0026sid=c4c9725f-1ab0-44d8-820f-430df2718e11\u0026ts=1777994388"}],"max_age":3600}
+Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=GHCTkvvgkVcWol0Fe91BslKF7U38zNlBWtIqXlDZ634%3D&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&ts=1777994388"
+Server: cloudflare
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Via: 1.1 heroku-router
+X-Content-Type-Options: nosniff
+X-Dns-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: DENY
+X-Permitted-Cross-Domain-Policies: none
+X-Powered-By: ReqRes.in - Deploy backends in 30 seconds
+X-Ratelimit-Limit: 250
+X-Ratelimit-Remaining: 244
+X-Ratelimit-Reset: 1778025600
+X-Reqres-Docs: https://reqres.in
+X-Reqres-Message: This API is powered by ReqRes. Deploy your own backend in 30 seconds!
+X-Reqres-Templates: https://app.reqres.in/templates
+X-Reqres-Tip: Build with your own data, not fixtures - app.reqres.in/dashboard
+X-Reqres-Trial: true
+X-Reqres-Trial-Days-Remaining: 0
+X-Reqres-Trial-Expires: 2026-04-11T10:42:53.256Z
+X-Reqres-Upgrade: https://app.reqres.in/upgrade
+X-Request-Id: eed8d791-9e4d-8bb9-e638-3aedd65628e6
+X-Robots-Tag: noindex, nofollow
+X-Xss-Protection: 0
+cf-cache-status: REVALIDATED
+Content-Encoding: gzip
+CF-RAY: 9f70bccce9f5285b-MAA
+
+{
+    "page": 1,
+    "per_page": 6,
+    "total": 12,
+    "total_pages": 2,
+    "data": [
+        {
+            "id": 1,
+            "name": "cerulean",
+            "year": 2000,
+            "color": "#98B2D1",
+            "pantone_value": "15-4020"
+        },
+        {
+            "id": 2,
+            "name": "fuchsia rose",
+            "year": 2001,
+            "color": "#C74375",
+            "pantone_value": "17-2031"
+        },
+        {
+            "id": 3,
+            "name": "true red",
+            "year": 2002,
+            "color": "#BF1932",
+            "pantone_value": "19-1664"
+        },
+        {
+            "id": 4,
+            "name": "aqua sky",
+            "year": 2003,
+            "color": "#7BC4C4",
+            "pantone_value": "14-4811"
+        },
+        {
+            "id": 5,
+            "name": "tigerlily",
+            "year": 2004,
+            "color": "#E2583E",
+            "pantone_value": "17-1456"
+        },
+        {
+            "id": 6,
+            "name": "blue turquoise",
+            "year": 2005,
+            "color": "#53B0AE",
+            "pantone_value": "15-5217"
+        }
+    ],
+    "support": {
+        "url": "https://benhowdle.im/first-cto-playbook?utm_source=reqres&utm_medium=json&utm_campaign=referral",
+        "text": "Become a better CTO. A playbook of painful stories and practical advice from a two-time startup CTO."
+    },
+    "_meta": {
+        "powered_by": "ReqRes",
+        "docs_url": "https://app.reqres.in/documentation",
+        "upgrade_url": "https://app.reqres.in/upgrade",
+        "example_url": "https://app.reqres.in/examples/notes-app",
+        "variant": "v1_b",
+        "message": "This is a read-only demo endpoint. Sign up to create your own collections with full CRUD and auth.",
+        "cta": {
+            "label": "Get started",
+            "url": "https://app.reqres.in/upgrade"
+        },
+        "context": "legacy_success"
+    }
+}
+20:51:53 [TestNG-test-All Tests-4] INFO  utils.AssertionUtils - [ASSERT PASS] Page number validation
+20:51:53 [TestNG-test-All Tests-2] INFO  utils.AssertionUtils - [ASSERT PASS] Generic resource schema validation
+]]></system-out>
+  </testcase>
+  <testcase name="getSingleUserTest" classname="Tests.GetSingleUserTest" time="2.745">
+    <system-out><![CDATA[20:51:53 [TestNG-test-All Tests-5] INFO  utils.AssertionUtils - [ASSERT PASS] List resources schema validation
+20:51:53 [TestNG-test-All Tests-5] INFO  utils.AssertionUtils - [ASSERT PASS] validation of data list not empty in resources list
+20:51:53 [TestNG-test-All Tests-2] INFO  Tests.GenericResourceTest - Thread ID: 26 | Completed Test: getGenericResource
+20:51:53 [TestNG-test-All Tests-6] INFO  utils.AssertionUtils - [ASSERT PASS] Update user schema validation
+20:51:53 [TestNG-test-All Tests-6] INFO  utils.AssertionUtils - [ASSERT PASS] Updated user validation
+20:51:54 [TestNG-test-All Tests-3] INFO  utils.AssertionUtils - [ASSERT PASS] Schema validation
+]]></system-out>
+  </testcase>
+  <testcase name="updateUserTest[org.testng.TestRunner@5a00df60](1)" classname="Tests.UpdateUserTest" time="2.999">
+    <system-out><![CDATA[20:51:54 [TestNG-test-All Tests-3] INFO  Tests.GetSingleUserTest - Thread ID: 27 | Completed Test: getSingleUserTest
+20:51:54 [TestNG-test-All Tests-6] INFO  utils.AssertionUtils - [ASSERT PASS] Updated job validation
+]]></system-out>
+  </testcase>
+  <testcase name="getUsersTest[org.testng.TestRunner@5a00df60](1)" classname="Tests.GetUsersTest" time="3.017">
+    <system-out><![CDATA[20:51:54 [TestNG-test-All Tests-6] INFO  Tests.UpdateUserTest - Thread ID: 30 | Completed Test: updateUserTest
+20:51:54 [TestNG-test-All Tests-4] INFO  utils.AssertionUtils - [ASSERT PASS] Schema validation
+20:51:54 [TestNG-test-All Tests-4] INFO  Tests.GetUsersTest - Get Users Test completed
+]]></system-out>
+  </testcase>
+  <testcase name="getResourcesList[org.testng.TestRunner@5a00df60](1)" classname="Tests.ListResourcesTest" time="3.099">
+    <system-out><![CDATA[20:51:54 [TestNG-test-All Tests-4] INFO  Tests.GetUsersTest - Thread ID: 28 | Completed Test: getUsersTest
+20:51:54 [TestNG-test-All Tests-5] INFO  utils.AssertionUtils - [ASSERT PASS] response data validation
+20:51:54 [TestNG-test-All Tests-5] INFO  Tests.ListResourcesTest - Get Users Test completed
 ]]></system-out>
   </testcase>
 </testsuite>

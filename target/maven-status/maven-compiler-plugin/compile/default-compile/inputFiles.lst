@@ -1,5 +1,11 @@
 C:\Users\shilp\new-eclipse-workspace\FrameworkOne\src\main\java\clients\ReqresClient.java
+C:\Users\shilp\new-eclipse-workspace\FrameworkOne\src\main\java\pojo\response\Cta.java
+C:\Users\shilp\new-eclipse-workspace\FrameworkOne\src\main\java\pojo\response\Datum.java
 C:\Users\shilp\new-eclipse-workspace\FrameworkOne\src\main\java\pojo\response\GetUserResponse.java
 C:\Users\shilp\new-eclipse-workspace\FrameworkOne\src\main\java\pojo\response\GetUsersResponse.java
+C:\Users\shilp\new-eclipse-workspace\FrameworkOne\src\main\java\pojo\response\ListResourcesResponse.java
+C:\Users\shilp\new-eclipse-workspace\FrameworkOne\src\main\java\pojo\response\Meta.java
 C:\Users\shilp\new-eclipse-workspace\FrameworkOne\src\main\java\pojo\response\Support.java
+C:\Users\shilp\new-eclipse-workspace\FrameworkOne\src\main\java\pojo\response\UpdateUserResponse.java
 C:\Users\shilp\new-eclipse-workspace\FrameworkOne\src\main\java\pojo\response\User.java
+C:\Users\shilp\new-eclipse-workspace\FrameworkOne\src\main\java\pojos\request\UpdateUserRequest.java

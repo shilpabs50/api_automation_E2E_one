@@ -1,0 +1,106 @@
+{
+    "$schema": "http://json-schema.org/draft-06/schema#",
+    "$ref": "#/definitions/Welcome10",
+    "definitions": {
+        "Welcome10": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "name": {
+                    "type": "string"
+                },
+                "job": {
+                    "type": "string"
+                },
+                "updatedAt": {
+                    "type": "string",
+                    "format": "date-time"
+                },
+                "_meta": {
+                    "$ref": "#/definitions/Meta"
+                }
+            },
+            "required": [
+                "_meta",
+                "job",
+                "name",
+                "updatedAt"
+            ],
+            "title": "Welcome10"
+        },
+        "Meta": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "powered_by": {
+                    "type": "string"
+                },
+                "docs_url": {
+                    "type": "string",
+                    "format": "uri",
+                    "qt-uri-protocols": [
+                        "https"
+                    ]
+                },
+                "upgrade_url": {
+                    "type": "string",
+                    "format": "uri",
+                    "qt-uri-protocols": [
+                        "https"
+                    ]
+                },
+                "example_url": {
+                    "type": "string",
+                    "format": "uri",
+                    "qt-uri-protocols": [
+                        "https"
+                    ]
+                },
+                "variant": {
+                    "type": "string"
+                },
+                "message": {
+                    "type": "string"
+                },
+                "cta": {
+                    "$ref": "#/definitions/Cta"
+                },
+                "context": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "context",
+                "cta",
+                "docs_url",
+                "example_url",
+                "message",
+                "powered_by",
+                "upgrade_url",
+                "variant"
+            ],
+            "title": "Meta"
+        },
+        "Cta": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "label": {
+                    "type": "string"
+                },
+                "url": {
+                    "type": "string",
+                    "format": "uri",
+                    "qt-uri-protocols": [
+                        "https"
+                    ]
+                }
+            },
+            "required": [
+                "label",
+                "url"
+            ],
+            "title": "Cta"
+        }
+    }
+}
